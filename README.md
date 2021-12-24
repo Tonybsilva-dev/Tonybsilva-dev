@@ -21,9 +21,8 @@ class SobreMim extends Desenvolvedor {
 }
 
 class Skills extends Desenvolvedor {
-  linguagens  = ['Suas linguagens'];
-  bibliotecas  = ['Suas bibliotecas'];
-  frameworks = ['Seus frameworks'];
+  linguagens  = ['Javascript', 'NodeJS'];
+  frameworks = ['React', 'ReactNative', 'NextJS', 'Vite'];
 }
 ```
 </p>
