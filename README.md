@@ -15,9 +15,9 @@ import Desenvolvedor from 'Tonybsilva-dev';
 
 class SobreMim extends Desenvolvedor {
   nome     = 'Antonio S';
-  area    = 'Analyst Operations';
-  trabalho  = 'Accenture Brazil';
-  local = 'Campina Grande - PB';
+  area    = 'Software Enginner';
+  trabalho  = 'Fusion DMS';
+  local = 'Recife - PE';
 }
 
 class Skills extends Desenvolvedor {
