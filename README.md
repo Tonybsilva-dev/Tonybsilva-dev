@@ -10,20 +10,29 @@
 [![DevTo](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/tonybsilvadev)
 
 
-```js
+```ts
 import Desenvolvedor from 'Tonybsilva-dev';
 
 class SobreMim extends Desenvolvedor {
   nome     = 'Antonio S';
   area    = 'Software Enginner';
-  trabalho  = 'Fusion DMS';
+  trabalho  = 'Fusion Software e Serviços SA';
   local = 'Recife - PE';
 }
 
 class Skills extends Desenvolvedor {
   linguagens  = ['Javascript', 'NodeJS', 'Typescript'];
-  frameworks = ['React', 'ReactNative', 'NextJS', 'Vite'];
+  frameworks = ['React', 'ReactNative', 'NextJS', 'Vite', 'Electron'];
+  databases = ['PostgresSQL', 'MySQL', 'MongoDB', 'SQLite3', 'In-Memory', 'Redis']
+  techs = ['S3', 'OAuth', 'TypeORM', 'Prisma.io', 'Mongoose']
+  utils = ['DataDog', 'Docker', 'Docker Compose', 'PM2']
 }
 ```
 </p>
 <hr>
+
+## My Current Personal Project
+
+[The Coffee Class App](https://app.the-coffee-class.com.br/)
+
+_A project about the study and application of an ecosystem of the most modern technologies available_
