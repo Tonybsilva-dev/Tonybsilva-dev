@@ -24,7 +24,7 @@ class Skills extends Desenvolvedor {
   linguagens  = ['Javascript', 'NodeJS', 'Typescript'];
   frameworks = ['React', 'ReactNative', 'NextJS', 'Vite', 'Electron'];
   databases = ['PostgresSQL', 'MySQL', 'MongoDB', 'SQLite3', 'In-Memory', 'Redis']
-  techs = ['S3', 'OAuth', 'TypeORM', 'Prisma.io', 'Mongoose']
+  techs = ['S3', 'JWT', 'OAuth', 'TypeORM', 'Prisma.io', 'Mongoose']
   utils = ['DataDog', 'Docker', 'Docker Compose', 'PM2']
 }
 ```
