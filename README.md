@@ -21,7 +21,8 @@ class SobreMim extends Desenvolvedor {
 }
 
 class Skills extends Desenvolvedor {
-  linguagens  = ['Javascript', 'NodeJS', 'Typescript'];
+  platforms = ['NodeJS']
+  languages  = ['Javascript', 'Typescript'];
   frameworks = ['React', 'ReactNative', 'NextJS', 'Vite', 'Electron'];
   databases = ['PostgresSQL', 'MySQL', 'MongoDB', 'SQLite3', 'In-Memory', 'Redis']
   techs = ['S3', 'JWT', 'OAuth', 'TypeORM', 'Prisma.io', 'Mongoose']
