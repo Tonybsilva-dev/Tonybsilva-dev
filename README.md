@@ -15,9 +15,9 @@ import Desenvolvedor from 'Tonybsilva-dev';
 
 class SobreMim extends Desenvolvedor {
   nome     = 'Antonio S';
-  area    = 'Software Enginner';
-  trabalho  = 'Fusion Software e Serviços SA';
-  local = 'Recife - PE';
+  area    = 'Web Developer';
+  trabalho  = '';
+  local = '';
 }
 
 class Skills extends Desenvolvedor {
@@ -31,9 +31,3 @@ class Skills extends Desenvolvedor {
 ```
 </p>
 <hr>
-
-## My Current Personal Project
-
-[The Coffee Class App](https://app.the-coffee-class.com.br/)
-
-_A project about the study and application of an ecosystem of the most modern technologies available_
