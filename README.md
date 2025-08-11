@@ -47,7 +47,9 @@
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📊 Estatísticas
+
+*Última atualização: 11/08/2025 05:01:29* do GitHub
 
 *Última atualização: 11/08/2025 01:46:59*
 
@@ -55,11 +57,11 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
-| Projeto Exemplo 1 | Python | 15 | [🔗](https://github.com/tonybsilva/projeto1) |
-| Projeto Exemplo 2 | JavaScript | 8 | [🔗](https://github.com/tonybsilva/projeto2) |
-| Projeto Exemplo 3 | React | 12 | [🔗](https://github.com/tonybsilva/projeto3) |
-| Projeto Exemplo 4 | Node.js | 6 | [🔗](https://github.com/tonybsilva/projeto4) |
-| Projeto Exemplo 5 | Python | 20 | [🔗](https://github.com/tonybsilva/projeto5) |
+| Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
+| nine-line | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/nine-line) |
+| Draupnir | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Draupnir) |
+| syntax-error-code-generator | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/syntax-error-code-generator) |
+| web-knowledge-wiki | None | 0 | [🔗](https://github.com/Tonybsilva-dev/web-knowledge-wiki) |
 
 <!--PROJECTS-->
 
@@ -67,10 +69,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 5c864a4 | [chore(docs): update readme style](https://github.com/tonybsilva/Tonybsilva-dev/commit/5c864a4) |
-| d05da4b | [chore(docs): update readme style](https://github.com/tonybsilva/Tonybsilva-dev/commit/d05da4b) |
-| ed9fb3a | [chore(docs): update readme style](https://github.com/tonybsilva/Tonybsilva-dev/commit/ed9fb3a) |
-| 8092e77 | [fix(file): file name](https://github.com/tonybsilva/Tonybsilva-dev/commit/8092e77) |
-| bf4b2f0 | [feat(automation): update readme to auto update](https://github.com/tonybsilva/Tonybsilva-dev/commit/bf4b2f0) |
+| b79ac5c | [chore(docs): update readme style](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/b79ac5c) |
 
 <!--COMMITS-->
