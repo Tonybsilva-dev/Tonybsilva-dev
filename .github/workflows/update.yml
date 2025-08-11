@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 6 * * *" # Todo dia 06:00 UTC
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   update-readme:
@@ -20,12 +17,13 @@ jobs:
           python-version: '3.10'
 
       - name: Instalar dependências
-        run: pip install requests
+        run: pip install requests feedparser
 
       - name: Rodar script
         env:
-          GITHUB_USERNAME: "Tonybsilva-Dev"
+          GITHUB_USERNAME: "SEU_USUARIO"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BLOG_RSS: "https://seublog.com/feed" # opcional
         run: python update_readme.py
 
       - name: Commit e Push

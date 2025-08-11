@@ -1,103 +1,56 @@
-import requests
 import os
-from datetime import datetime, timezone
+import requests
+from datetime import datetime
 
-GITHUB_USERNAME = os.getenv("GITHUB_USERNAME", "SEU_USUARIO")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+USERNAME = "SEU_USUARIO"
+TOKEN = os.getenv("GITHUB_TOKEN")
 
-API_URL = "https://api.github.com/graphql"
+def github_api(endpoint):
+    url = f"https://api.github.com{endpoint}"
+    r = requests.get(url, headers={"Authorization": f"token {TOKEN}"})
+    r.raise_for_status()
+    return r.json()
 
-def run_query(query, variables=None):
-    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
-    response = requests.post(API_URL, json={"query": query, "variables": variables}, headers=headers)
-    if response.status_code != 200:
-        raise Exception(f"Erro na API: {response.status_code} - {response.text}")
-    return response.json()
+def fetch_projects():
+    repos = github_api(f"/users/{USERNAME}/repos?sort=created&direction=desc")
+    table = "| Nome | Stars | Link |\n|------|-------|------|\n"
+    for repo in repos[:10]:
+        table += f"| {repo['name']} | ⭐ {repo['stargazers_count']} | [Acessar]({repo['html_url']}) |\n"
+    return table
 
-def fetch_commit_count_today():
-    """Retorna quantos commits foram feitos hoje."""
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT00:00:00Z")
+def fetch_commits():
+    events = github_api(f"/users/{USERNAME}/events")
+    table = "| Repositório | Mensagem | Data |\n|-------------|----------|------|\n"
+    count = 0
+    for event in events:
+        if event["type"] == "PushEvent":
+            repo_name = event["repo"]["name"]
+            for commit in event["payload"]["commits"]:
+                msg = commit["message"].replace("|", "/")
+                date_str = event["created_at"][:10]
+                table += f"| {repo_name} | {msg} | {date_str} |\n"
+                count += 1
+                if count >= 15:
+                    return table
+    return table
 
-    query = """
-    query($username:String!, $from:DateTime!) {
-      user(login: $username) {
-        contributionsCollection(from: $from) {
-          totalCommitContributions
-        }
-      }
-    }
-    """
-    data = run_query(query, {"username": GITHUB_USERNAME, "from": today})
-    return data["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
+def replace_between(content, start_tag, end_tag, replacement):
+    start = content.find(start_tag) + len(start_tag)
+    end = content.find(end_tag, start)
+    return content[:start] + "\n" + replacement + "\n" + content[end:]
 
-def fetch_github_stats():
-    """Retorna estatísticas gerais do GitHub."""
-    query = """
-    query($username:String!) {
-      user(login: $username) {
-        repositories {
-          totalCount
-        }
-        pullRequests {
-          totalCount
-        }
-        issues {
-          totalCount
-        }
-        contributionsCollection {
-          totalCommitContributions
-        }
-      }
-    }
-    """
-    data = run_query(query, {"username": GITHUB_USERNAME})
-    user = data["data"]["user"]
-
-    return {
-        "total_repos": user["repositories"]["totalCount"],
-        "total_prs": user["pullRequests"]["totalCount"],
-        "total_issues": user["issues"]["totalCount"],
-        "total_commits": user["contributionsCollection"]["totalCommitContributions"]
-    }
-
-def update_readme(commit_today, stats):
+def update_readme():
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    commit_html = f"""
-<table>
-<tr>
-<td align="center"><b>Commits hoje</b><br>🌱 {commit_today}</td>
-<td align="center"><b>Repositórios</b><br>📦 {stats['total_repos']}</td>
-<td align="center"><b>Pull Requests</b><br>🔀 {stats['total_prs']}</td>
-<td align="center"><b>Issues</b><br>🐛 {stats['total_issues']}</td>
-<td align="center"><b>Commits totais</b><br>📝 {stats['total_commits']}</td>
-</tr>
-</table>
-"""
+    projects_table = fetch_projects()
+    commits_table = fetch_commits()
 
-    readme = replace_section(readme, "github_stats", [commit_html])
+    readme = replace_between(readme, "<!--PROJECTS-->", "<!--PROJECTS-->", projects_table)
+    readme = replace_between(readme, "<!--COMMITS-->", "<!--COMMITS-->", commits_table)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)
 
-def replace_section(content, marker, lines):
-    start_marker = f"<!--START_SECTION:{marker}-->"
-    end_marker = f"<!--END_SECTION:{marker}-->"
-    start_index = content.find(start_marker)
-    end_index = content.find(end_marker)
-
-    if start_index == -1 or end_index == -1:
-        raise ValueError(f"Marcadores {marker} não encontrados no README.md")
-
-    start_index += len(start_marker)
-    return content[:start_index] + "\n" + "\n".join(lines) + "\n" + content[end_index:]
-
 if __name__ == "__main__":
-    if not GITHUB_TOKEN:
-        raise Exception("Defina a variável de ambiente GITHUB_TOKEN")
-
-    commits_today = fetch_commit_count_today()
-    stats = fetch_github_stats()
-    update_readme(commits_today, stats)
-    print(f"[{datetime.now()}] README.md atualizado.")
+    update_readme()
