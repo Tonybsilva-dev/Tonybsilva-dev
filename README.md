@@ -1,11 +1,9 @@
-# 👨‍💻 Tony Silva - Desenvolvedor Full Stack
-
-<div style="display: flex; gap: 10px; align-items: center;">
+<div style="display: flex; gap: 5px; align-items: center;">
   <a href="https://linkedin.com/in/tony-silva" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="height: 28px;" />
   </a>
   
-  <img src="https://img.shields.io/badge/Profile%20Views-0000000-00ff00?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=00ff00" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Profile%20Views-0000000-00ff00?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=00ff00" alt="Profile Views" style="height: 28px;" />
 </div>
 
 ### 💻 **Tecnologias**
