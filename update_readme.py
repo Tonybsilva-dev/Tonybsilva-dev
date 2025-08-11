@@ -64,16 +64,19 @@ def update_readme(commit_today, stats):
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    readme = replace_section(readme, "commit_status", [
-        f"- 📅 Commits hoje: **{commit_today}**"
-    ])
+    commit_html = f"""
+<table>
+<tr>
+<td align="center"><b>Commits hoje</b><br>🌱 {commit_today}</td>
+<td align="center"><b>Repositórios</b><br>📦 {stats['total_repos']}</td>
+<td align="center"><b>Pull Requests</b><br>🔀 {stats['total_prs']}</td>
+<td align="center"><b>Issues</b><br>🐛 {stats['total_issues']}</td>
+<td align="center"><b>Commits totais</b><br>📝 {stats['total_commits']}</td>
+</tr>
+</table>
+"""
 
-    readme = replace_section(readme, "github_stats", [
-        f"- 📦 Repositórios: **{stats['total_repos']}**",
-        f"- 🔀 Pull Requests: **{stats['total_prs']}**",
-        f"- 🐛 Issues: **{stats['total_issues']}**",
-        f"- 📝 Commits totais: **{stats['total_commits']}**"
-    ])
+    readme = replace_section(readme, "github_stats", [commit_html])
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)

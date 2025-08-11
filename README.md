@@ -1,11 +1,36 @@
-# Meu README Automático 🚀
+## 📊 Minhas Estatísticas no GitHub
 
-## Status de Commits Diários
-<!--START_SECTION:commit_status-->
-Carregando...
-<!--END_SECTION:commit_status-->
+<table>
+<tr>
+<td align="center">
 
-## Estatísticas do GitHub
-<!--START_SECTION:github_stats-->
-Carregando...
-<!--END_SECTION:github_stats-->
+**Commits hoje**  
+🌱 2  
+
+</td>
+<td align="center">
+
+**Repositórios**  
+📦 56  
+
+</td>
+<td align="center">
+
+**Pull Requests**  
+🔀 326  
+
+</td>
+<td align="center">
+
+**Issues**  
+🐛 21  
+
+</td>
+<td align="center">
+
+**Commits totais**  
+📝 164  
+
+</td>
+</tr>
+</table>
