@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 18/09/2025 06:28:13*
+
 *Última atualização: 17/09/2025 06:28:54*
 
 *Última atualização: 16/09/2025 06:29:11*
@@ -133,11 +135,11 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
+| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
 | nine-line | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/nine-line) |
 | Draupnir | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Draupnir) |
 | syntax-error-code-generator | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/syntax-error-code-generator) |
-| web-knowledge-wiki | None | 0 | [🔗](https://github.com/Tonybsilva-dev/web-knowledge-wiki) |
 
 <!--PROJECTS-->
 
@@ -145,6 +147,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 6e9cf56 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/6e9cf56) |
+| 48229d0 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/48229d0) |
 
 <!--COMMITS-->
