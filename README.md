@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 19/09/2025 02:17:45*
+
 *Última atualização: 18/09/2025 06:28:13*
 
 
@@ -54,11 +56,11 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
-| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
+| boilerplate-vite-ts | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/boilerplate-vite-ts) |
+| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
 | nine-line | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/nine-line) |
 | Draupnir | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Draupnir) |
-| syntax-error-code-generator | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/syntax-error-code-generator) |
 
 <!--PROJECTS-->
 
@@ -66,6 +68,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 48229d0 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/48229d0) |
+| 288107e | [Update README.md](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/288107e) |
 
 <!--COMMITS-->
