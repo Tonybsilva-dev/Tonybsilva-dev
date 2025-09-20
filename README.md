@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 20/09/2025 06:25:46*
+
 *Última atualização: 19/09/2025 06:28:29*
 
 *Última atualização: 19/09/2025 02:17:45*
@@ -58,11 +60,11 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
+| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
+| memory-card-game | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/memory-card-game) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
 | boilerplate-vite-ts | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/boilerplate-vite-ts) |
-| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
 | nine-line | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/nine-line) |
-| Draupnir | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Draupnir) |
 
 <!--PROJECTS-->
 
@@ -70,6 +72,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| bcc3476 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/bcc3476) |
+| 9cd6639 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/9cd6639) |
 
 <!--COMMITS-->
