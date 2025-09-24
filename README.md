@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 24/09/2025 06:28:53*
+
 *Última atualização: 23/09/2025 06:29:13*
 
 *Última atualização: 22/09/2025 06:30:22*
@@ -66,7 +68,7 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
-| the-terminal | MDX | 0 | [🔗](https://github.com/Tonybsilva-dev/the-terminal) |
+| antonio-s | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/antonio-s) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
 | memory-card-game | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/memory-card-game) |
 | Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
@@ -78,6 +80,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 7e66825 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/7e66825) |
+| 9da807d | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/9da807d) |
 
 <!--COMMITS-->
