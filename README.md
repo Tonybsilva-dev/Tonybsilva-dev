@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 25/09/2025 06:29:18*
+
 *Última atualização: 24/09/2025 06:28:53*
 
 *Última atualização: 23/09/2025 06:29:13*
@@ -68,8 +70,8 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
-| antonio-s | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/antonio-s) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
+| antonio-s | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/antonio-s) |
 | memory-card-game | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/memory-card-game) |
 | Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
 | boilerplate-vite-ts | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/boilerplate-vite-ts) |
@@ -80,6 +82,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 9da807d | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/9da807d) |
+| bdd8b02 | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/bdd8b02) |
 
 <!--COMMITS-->
