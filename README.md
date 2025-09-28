@@ -47,6 +47,8 @@
 
 ## 📊 Estatísticas
 
+*Última atualização: 28/09/2025 06:26:41*
+
 *Última atualização: 27/09/2025 06:24:40*
 
 *Última atualização: 26/09/2025 06:28:20*
@@ -74,11 +76,11 @@
 <!--PROJECTS-->
 | Nome | Tecnologia | Stars | Link |
 |------|------------|-------|------|
-| code-kit | JavaScript | 0 | [🔗](https://github.com/Tonybsilva-dev/code-kit) |
+| ecoleta-reform | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/ecoleta-reform) |
 | Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
+| code-kit | JavaScript | 0 | [🔗](https://github.com/Tonybsilva-dev/code-kit) |
 | memory-card-game | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/memory-card-game) |
 | Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
-| boilerplate-vite-ts | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/boilerplate-vite-ts) |
 
 <!--PROJECTS-->
 
@@ -86,6 +88,6 @@
 <!--COMMITS-->
 | Hash | Título |
 |------|--------|
-| 580316a | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/580316a) |
+| 462f2df | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/462f2df) |
 
 <!--COMMITS-->
