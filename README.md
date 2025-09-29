@@ -1,95 +1,79 @@
-<div style="display: flex; gap: 5px; align-items: center;">
-  <a href="https://linkedin.com/in/tony-silva" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="height: 28px;" />
-  </a>
-  
-  <img src="https://img.shields.io/badge/Profile%20Views-0000000-00ff00?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=00ff00" alt="Profile Views" style="height: 28px;" />
-</div>
+<h1 align="center">👋 Olá! Eu sou o Tony Silva</h1>
 
-### 💻 **Tecnologias**
+<p align="center">
+  Desenvolvedor apaixonado por tecnologia, inovação e boas práticas de código.
+</p>
 
-| Categoria | Stack |
-|-----------|-------|
-| **Frontend** | React, Next.js, TypeScript, TailwindCSS |
-| **Backend** | Node.js, Express, Python, C# |
-| **Mobile** | React Native, Electron |
-| **Banco de Dados** | MongoDB, PostgreSQL, SQL Server |
-| **Cloud & DevOps** | AWS, Vercel, Docker, CI/CD |
+---
 
-## 🌟 Projetos Destacados
+### 🚀 Minhas Stacks
 
-- **Draupnir Design System** - Sistema de design com Next.js, TailwindCSS e Storybook
-- **The Coffee Class** - Aplicação para o gerenciamento de pedidos de restaurantes
-- **Leaf Barber App** - Aplicação completa para barbearias
-- **Ecoleta** - Marketplace de coleta de resíduos
-- **Tempero Tech** - Food Delivey App com mapa de geolocalização em tempo real
+<p align="left">
+  <strong>Frontend:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React.js"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React Native"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" title="Next.js"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/remix/remix-original.svg" title="Remix"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mdx/mdx-original.svg" title="MDX"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" title="Node.js"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" title="Electron"/></code>
+</p>
+<p align="left">
+  <strong>Build & Testes:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" title="Vite"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/turborepo/turborepo-original.svg" title="Turborepo"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nx/nx-original.svg" title="NX"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg" title="Vitest"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" title="Jest"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" title="Storybook"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chromatic/chromatic-original.svg" title="Chromatic"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original-wordmark.svg" title="Cypress"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" title="Playwright"/></code>
+</p>
+<p align="left">
+  <strong>Qualidade de Código:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" title="ESLint"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-original-wordmark.svg" title="Prettier"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/biome/biome-original.svg" title="Biome"/></code>
+</p>
+<p align="left">
+  <strong>Serviços & Plataformas:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original-wordmark.svg" title="Stripe"/></code>
+</p>
+<p align="left">
+  <strong>Banco de Dados:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" title="MySQL"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" title="PostgreSQL"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" title="Redis"/></code>
+</p>
+<p align="left">
+  <strong>Cloud, DevOps & CI/CD:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" title="Azure"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" title="GitHub Actions"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git"/></code>
+</p>
+<p align="left">
+  <strong>Observabilidade:</strong><br>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sentry/sentry-original.svg" title="Sentry"/></code>
+  <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" title="DataDog"/></code>
+</p>
 
-## 📞 Contato
+---
+
+### 📊 Estatísticas do GitHub
 
 <div align="center">
-  
-### 💬 Vamos Conversar?
-  
-  Estou sempre aberto a novas oportunidades e colaborações!
-  
-  | Plataforma | Link | Status |
-  |------------|------|--------|
-  | **LinkedIn** | [Antonio Silva](https://linkedin.com/in/tony-silva) | ✅ Ativo |
-  | **GitHub** | [@Tonybsilva-Dev](https://github.com/Tonybsilva-Dev) | ✅ Ativo |
-  
-  <br>
-  
-  > *"Transformando ideias em código, código em soluções"* 🚀
-  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tonybsilva-dev&show_icons=true&theme=transparent&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tonybsilva-dev&layout=compact&langs_count=7&theme=transparent"/>
 </div>
 
 ---
 
-## 📊 Estatísticas
+### 💬 Vamos conversar?
 
-*Última atualização: 29/09/2025 06:31:05*
-
-*Última atualização: 28/09/2025 06:26:41*
-
-*Última atualização: 27/09/2025 06:24:40*
-
-*Última atualização: 26/09/2025 06:28:20*
-
-*Última atualização: 25/09/2025 06:29:18*
-
-*Última atualização: 24/09/2025 06:28:53*
-
-*Última atualização: 23/09/2025 06:29:13*
-
-*Última atualização: 22/09/2025 06:30:22*
-
-*Última atualização: 21/09/2025 06:27:01*
-
-*Última atualização: 20/09/2025 06:25:46*
-
-*Última atualização: 19/09/2025 06:28:29*
-
-*Última atualização: 19/09/2025 02:17:45*
-
-*Última atualização: 18/09/2025 06:28:13*
-
-
-## 🚀 Projetos Recentes
-<!--PROJECTS-->
-| Nome | Tecnologia | Stars | Link |
-|------|------------|-------|------|
-| ecoleta-reform | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/ecoleta-reform) |
-| Tonybsilva-dev | Python | 0 | [🔗](https://github.com/Tonybsilva-dev/Tonybsilva-dev) |
-| code-kit | JavaScript | 0 | [🔗](https://github.com/Tonybsilva-dev/code-kit) |
-| memory-card-game | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/memory-card-game) |
-| Pokedex-V2 | TypeScript | 0 | [🔗](https://github.com/Tonybsilva-dev/Pokedex-V2) |
-
-<!--PROJECTS-->
-
-## ⏱ Últimos Commits
-<!--COMMITS-->
-| Hash | Título |
-|------|--------|
-| f39139a | [docs: atualiza README automaticamente 📊](https://github.com/Tonybsilva-dev/Tonybsilva-dev/commit/f39139a) |
-
-<!--COMMITS-->
+Me encontre no [LinkedIn](https://www.linkedin.com/in/tony-silva/) ou confira meus repositórios aqui no GitHub!
