@@ -65,7 +65,9 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 📊 Estatísticas
+
+*Última atualização: 29/09/2025 23:59:38* do GitHub
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tonybsilva-dev&show_icons=true&theme=transparent&count_private=true" />
