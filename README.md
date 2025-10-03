@@ -65,20 +65,6 @@
 
 ---
 
-### 📊 Estatísticas
-
-*Última atualização: 03/10/2025 06:27:43*
-
-*Última atualização: 02/10/2025 06:28:10*
-
-*Última atualização: 01/10/2025 06:29:04*
-
-*Última atualização: 30/09/2025 06:29:40*
-
-*Última atualização: 30/09/2025 00:01:39*
-
-*Última atualização: 29/09/2025 23:59:38* do GitHub
-
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tonybsilva-dev&show_icons=true&theme=transparent&count_private=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tonybsilva-dev&layout=compact&langs_count=7&theme=transparent"/>
