@@ -1,5 +1,5 @@
 # Antonio Silva  
-**Full Stack Software Engineer**
+**Software Engineer**
 
 Desenvolvedor com foco em arquitetura, qualidade de código e entrega consistente em ambientes de produção.
 
@@ -10,14 +10,14 @@ Desenvolvedor com foco em arquitetura, qualidade de código e entrega consistent
 ### Frontend
 - JavaScript, TypeScript  
 - React, React Native  
-- Next.js, Remix  
+- Next.js, Remix (React Router v7) 
 - Node.js, Electron  
 - MDX
 
 ### Build, Monorepo & Testes
 - Vite  
 - Turborepo, Nx  
-- Vitest, Jest  
+- Vitest, Jest, Supertest  
 - Cypress, Playwright  
 - Storybook, Chromatic
 
@@ -31,7 +31,7 @@ Desenvolvedor com foco em arquitetura, qualidade de código e entrega consistent
 - Integrações com Stripe
 
 ### Bancos de Dados
-- PostgreSQL  
+- PostgreSQL, MySql  
 - MySQL  
 - MongoDB  
 - Redis
@@ -39,15 +39,18 @@ Desenvolvedor com foco em arquitetura, qualidade de código e entrega consistent
 ### Cloud, DevOps & CI/CD
 - AWS, Azure  
 - Docker  
-- GitHub Actions  
+- GitHub Actions, Bitbucket Pipelines
 - Git
 
 ### Observabilidade
 - Sentry  
 - Datadog
 
+### Ai Tools
+- Cursor Ai
+
 ---
 
 ## Contato
 - LinkedIn: https://www.linkedin.com/in/tony-silva/  
-- Email: contato@antoniobsilva.com
+- Email: contato@antoniobsilva.com.br
